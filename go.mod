@@ -1,4 +1,4 @@
-module github.com/crossplane/provider-template
+module github.com/garethjevans/provider-ytt
 
 go 1.19
 
