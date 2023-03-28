@@ -238,8 +238,11 @@ spec:
                 - name
                 - namespace
                 type: object
+              ytt:
+                type: string
             required:
             - forProvider
+            - ytt
             type: object
           status:
             description: A YttTemplateStatus represents the observed state of a YttTemplate.

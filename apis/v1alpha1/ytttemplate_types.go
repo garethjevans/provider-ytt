@@ -39,6 +39,7 @@ type YttTemplateObservation struct {
 type YttTemplateSpec struct {
 	xpv1.ResourceSpec `json:",inline"`
 	ForProvider       YttTemplateParameters `json:"forProvider"`
+	Ytt               string                `json:"ytt"`
 }
 
 // A YttTemplateStatus represents the observed state of a YttTemplate.
