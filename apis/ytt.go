@@ -19,7 +19,7 @@ package apis
 
 import (
 	"k8s.io/apimachinery/pkg/runtime"
-	
+
 	yttv1alpha1 "github.com/garethjevans/provider-ytt/apis/v1alpha1"
 )
 
